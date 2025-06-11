@@ -1,0 +1,27 @@
+Names:
+Hala Mohammad Omar Ali   202320200
+Lana Talal Sabbah 
+
+
+XAMPP>htdocs>Movie-Project.php
+
+php links
+
+http://localhost/Movie-Project.php/index.html
+
+http://localhost/Movie-Project.php/login.html
+
+http://localhost/Movie-Project.php/signup.html
+
+http://localhost/Movie-Project.php/home.php
+
+http://localhost/Movie-Project.php/admin_dashboard.php
+
+http://localhost/Movie-Project.php/add_movie.php
+
+http://localhost/Movie-Project.php/edit_movie.php?id=1
+تغيّري الرقم 1 حسب ID الفيلم اللي بدك تعدليه
+
+http://localhost/Movie-Project.php/favorite_movies.php
+
+

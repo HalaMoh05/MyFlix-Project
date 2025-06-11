@@ -1,0 +1,219 @@
+/* === Reset === */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* === Landing Page === */
+body {
+  background: url('../img/download (5).jpg') no-repeat center center/cover;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+.landing {
+  background: url('https://i.pisnimg.com/736x/ae/e1/33/aee133e814b0a99d7ea1e995713cbabd.jpg') no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+  color: #fff;
+}
+
+/* === Header & Navigation === */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 36px;
+  color: red;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+nav .btn {
+  padding: 10px 20px;
+  background-color:red;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+nav .btn:hover {
+  background-color: darkred;
+}
+
+.genre-menu {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.genre-menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.genre-menu li a:hover {
+  color: red;
+}
+
+/* === Landing Page Content === */
+.content {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.content h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.primary-btn {
+  background-color: red;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background 0.3s;
+}
+
+.primary-btn:hover {
+  background-color: darkred;
+}
+
+/* === Login & Sign Up Pages === */
+.login-page {
+  
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  background-color: #000;
+  padding: 40px;
+  border-radius: 8px;
+  color: white;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.7);
+  text-align: center;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+}
+
+.form-container form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+}
+
+.form-container form button {
+  width: 100%;
+  padding: 12px;
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-container form button:hover {
+  background-color: darkred;
+}
+
+.form-container .small {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.form-container .small a {
+  color: red;
+  text-decoration: none;
+}
+
+/* === Home Page (home.html) === */
+.home-page {
+  
+  color: white;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.movie-section {
+  margin-top: 30px;
+}
+
+.movie-section h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.movie-grid {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.movie-grid img {
+  width: 150px;
+  border-radius: 5px;
+  transition: transform 0.3s;
+}
+
+.movie-grid img:hover {
+  transform: scale(1.05);
+}
+
+/* === Responsive design === */
+@media (max-width: 600px) {
+  .content h2 {
+    font-size: 28px;
+  }
+
+  .movie-grid img {
+    width: 100px;
+  }
+
+  .form-container {
+    padding: 20px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .genre-menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
